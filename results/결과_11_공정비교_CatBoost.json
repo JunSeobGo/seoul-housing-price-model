@@ -1,0 +1,27 @@
+{
+ "model": "CatBoost",
+ "trials": 45,
+ "search_seconds": 2502.1,
+ "best_params": {
+  "depth": 6,
+  "learning_rate": 0.10803196595999304,
+  "iterations": 922,
+  "l2_leaf_reg": 1.485001898047095,
+  "random_strength": 2.9075291320431718,
+  "bagging_temperature": 1.5575018079315892
+ },
+ "search_mae_seed0": 127.89524982280176,
+ "eval_mae_mean": 128.82216080449,
+ "eval_mae_std": 2.041654615916504,
+ "eval_r2_mean": 0.8079583107332305,
+ "eval_r2_std": 0.0026597363321360467,
+ "eval_mae_all": [
+  125.815316316355,
+  130.2249311198688,
+  129.30042682769863,
+  129.94796895403763
+ ],
+ "search_mae_min": 127.89524982280176,
+ "search_mae_median": 134.1409714541742,
+ "search_mae_max": 184.17498479995785
+}
