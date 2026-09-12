@@ -1,0 +1,30 @@
+# 데이터 — 용량이 크고 공개 출처에서 받을 수 있다
+data/*
+!data/README.md
+*.csv
+!results/*.csv
+*.xlsx
+*.pptx
+*.pdf
+*.mp4
+
+# 노트북 산출물
+*.ipynb
+.ipynb_checkpoints/
+
+# 파이썬
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# 모델 학습 부산물
+catboost_info/
+
+# OS / 편집기
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
