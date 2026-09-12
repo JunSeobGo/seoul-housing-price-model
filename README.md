@@ -46,7 +46,21 @@ CatBoost는 아무 파라미터나 뽑아도 잘 나오고 XGBoost는 잘 뽑아
 그 U자는 **매매에서만** 나타난다 (매매 5/5, 전월세 0/16). 재건축 기대는
 소유권 가치에 붙지 거주 비용에는 붙지 않는다는 뜻이다.
 
-전체 분석은 **[docs/report.md](docs/report.md)** 에 있다.
+---
+
+## 문서
+
+| 문서 | 내용 |
+|---|---|
+| [docs/report.md](docs/report.md) | 전체 분석. 데이터, 설계, 결과, 도메인 대조, 시계열, 한계 |
+| [docs/portfolio.md](docs/portfolio.md) | 한 장 요약 |
+| [docs/qna.md](docs/qna.md) | 설계와 결과에 대한 질의응답 |
+| [docs/adr/](docs/adr/) | 설계 결정 기록 7건 |
+| [docs/roadmap.md](docs/roadmap.md) | 후속 작업 |
+| [data/README.md](data/README.md) | 데이터 취득 방법 |
+
+결과 대부분은 모델이 아니라 설계 결정에서 나왔다. 무엇을 왜 그렇게 정했는지는
+[ADR](docs/adr/) 에 정리했다.
 
 ---
 
